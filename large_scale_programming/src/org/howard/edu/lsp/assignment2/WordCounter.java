@@ -7,8 +7,11 @@ import java.util.HashMap;
 public class WordCounter {
 
     public static void main(String[] args) {
+    	
+    	//Almutairi
 
-        String filePath = "/Users/AbdullahAlmutairi/eclipse-workspace/large_scale_programming/src/org/howard/edu/lsp/assignment2/input.txt";
+    	
+        String filePath = "src/main/java/resources/input.txt";
 
         HashMap<String, Integer> wordCount = new HashMap<>();
 
@@ -24,7 +27,7 @@ public class WordCounter {
                 
                 for (String text : words) {
                 	
-                	text = text.replaceAll("[^a-zA-Z]+","");
+                	text = text.toLowerCase().replaceAll("[^a-zA-Z0-9]+","");
                     
                     if (wordCount.containsKey(text)) {
                     	
@@ -46,29 +49,3 @@ public class WordCounter {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
