@@ -1,13 +1,17 @@
-package org.howard.edu.lsp.assignment4;
+package org.howard.edu.assignment5;
+
+import java.util.ArrayList;
 
 public class Driver {
 
 	
 
+		public static final ArrayList<Integer> List = null;
+
 		public static void main(String[] args) throws IntegerSetException {
 			IntegerSet set1 = new IntegerSet();
 			
-			System.out.println("Adding integers 1 through 10 to Set 1...");
+			System.out.println("Add integers 1 through 10 to Set 1");
 			System.out.println();
 			
 			set1.add(1);
@@ -22,7 +26,7 @@ public class Driver {
 			set1.add(10);
 
 			
-			System.out.println("Value of Set 1: " + set1.toString());
+			System.out.println("Value Set 1: " + set1.toString());
 			System.out.println("Smallest integer in Set 1: " + set1.smallest());
 			System.out.println("Largest integer in Set 1: " + set1.largest());
 			System.out.println();
@@ -30,7 +34,7 @@ public class Driver {
 			IntegerSet set2 = new IntegerSet();
 			
 	
-			System.out.println("Adding integers 11 through 20 to Set 2...");
+			System.out.println("Adding 11 through 20 to Set 2...");
 			System.out.println();
 			
 			set2.add(11);
@@ -120,7 +124,7 @@ public class Driver {
 			System.out.println("Is Set 2 empty? " + set2.isEmpty());
 			System.out.println();
 			
-			// Exit Message
+			// Exit 
 			System.out.println("Exiting Integer Set test program...");
 		}
 
