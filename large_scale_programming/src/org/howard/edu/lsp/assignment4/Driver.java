@@ -1,8 +1,12 @@
 package org.howard.edu.lsp.assignment4;
 
+import java.util.ArrayList;
+
 public class Driver {
 
 	
+
+		public static final ArrayList<Integer> List = null;
 
 		public static void main(String[] args) throws IntegerSetException {
 			IntegerSet set1 = new IntegerSet();
