@@ -47,6 +47,7 @@ public class SongsDatabaseTest {
         }});
     }
 
+    
     @Test
     public void testGetGenreOfSong() {
         SongsDatabase db = new SongsDatabase();

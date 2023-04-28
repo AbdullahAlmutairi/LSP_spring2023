@@ -16,7 +16,7 @@ public class SongsDatabase {
         map.get(genre).add(songTitle);
     }
 
-    /* Return the Set that contains all songs for a genre */
+    /* Return the Set that contains al songs for a genre */
     public Set<String> getSongs(String genre) {
         if (map.containsKey(genre)) {
             return map.get(genre);
